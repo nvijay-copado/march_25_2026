@@ -1,0 +1,48 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "FormulaExpression": "DESERIALIZE(PromptResult)",
+        "FormulaResultPath": "DeserializedPromptResult",
+        "FormulaSequence": 1,
+        "GlobalKey": "GPSFormatPromptResultsCustom5805",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "GPSFormatPromptResults",
+        "OmniDataTransformationId": {
+            "Name": "GPSFormatPromptResults",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GPSFormatPromptResults",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "GPSFormatPromptResultsCustom9216",
+        "InputFieldName": "DeserializedPromptResult",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "GPSFormatPromptResults",
+        "OmniDataTransformationId": {
+            "Name": "GPSFormatPromptResults",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/GPSFormatPromptResults",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "FormattedPromptResult",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

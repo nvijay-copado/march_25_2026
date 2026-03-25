@@ -1,0 +1,25 @@
+[
+    {
+        "CurrencyIsoCode": "USD",
+        "GlobalKey": "VisitDRInspectorTransformCustom6364",
+        "InputFieldName": "Inspector",
+        "IsDisabled": false,
+        "IsLocked": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "MayEdit": true,
+        "Name": "VisitDRInspectorTransform",
+        "OmniDataTransformationId": {
+            "Name": "VisitDRInspectorTransform",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/VisitDRInspectorTransform",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "Inspectors",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]
