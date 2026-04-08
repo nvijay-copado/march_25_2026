@@ -3,5 +3,6 @@
     <fullName>test19May__c</fullName>
     <externalId>false</externalId>
     <label>test19May</label>
+    <trackHistory>false</trackHistory>
     <type>AutoNumber</type>
 </CustomField>
