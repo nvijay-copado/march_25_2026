@@ -1,6 +1,5 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "www.example.com",
@@ -9,10 +8,8 @@
         "InputObjectName": "Account",
         "InputObjectQuerySequence": 1,
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "AccountSearch",
         "OmniDataTransformationId": {
             "Name": "AccountSearch",
@@ -27,7 +24,6 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "API_DEV2",
@@ -36,10 +32,8 @@
         "InputObjectName": "Contact",
         "InputObjectQuerySequence": 2,
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "AccountSearch",
         "OmniDataTransformationId": {
             "Name": "AccountSearch",
@@ -54,14 +48,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "AccountSearchCustom9009",
         "InputFieldName": "Details:AccountNumber",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "AccountSearch",
         "OmniDataTransformationId": {
             "Name": "AccountSearch",
@@ -76,14 +67,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "AccountSearchCustom5736",
         "InputFieldName": "Details:Id",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "AccountSearch",
         "OmniDataTransformationId": {
             "Name": "AccountSearch",
@@ -98,14 +86,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "AccountSearchCustom6779",
         "InputFieldName": "Details:Name",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "AccountSearch",
         "OmniDataTransformationId": {
             "Name": "AccountSearch",

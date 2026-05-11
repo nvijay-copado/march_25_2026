@@ -1,13 +1,10 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGUpdatePriContactCustom3826",
         "InputFieldName": "UpdateEmail",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleUpdatePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleUpdatePriContact",
@@ -22,14 +19,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleUpdatePriContactCustom3038",
         "InputFieldName": "UpdateFirstName",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleUpdatePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleUpdatePriContact",
@@ -44,14 +38,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGUpdatePriContactCustom5935",
         "InputFieldName": "UpdateContactId",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": true,
         "IsUpsertKey": true,
-        "MayEdit": true,
         "Name": "sampleUpdatePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleUpdatePriContact",
@@ -66,14 +57,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterOperator": "=",
         "GlobalKey": "TRNGUpdatePriContactCustom4471",
         "IsDisabled": true,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "MigrationValue": "FAKEMAPPING",
         "Name": "sampleUpdatePriContact",
         "OmniDataTransformationId": {
@@ -89,14 +77,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleUpdatePriContactCustom2950",
         "InputFieldName": "UpdateLastName",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleUpdatePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleUpdatePriContact",

@@ -1,6 +1,5 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "AccountId",
@@ -9,10 +8,8 @@
         "InputObjectName": "Account",
         "InputObjectQuerySequence": 1,
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -27,7 +24,6 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "AccountId",
@@ -36,10 +32,8 @@
         "InputObjectName": "Contact",
         "InputObjectQuerySequence": 2,
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -54,7 +48,6 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "Account:PrimaryContactId__c",
@@ -63,10 +56,8 @@
         "InputObjectName": "Contact",
         "InputObjectQuerySequence": 3,
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -81,14 +72,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails9207817733480737",
         "InputFieldName": "Account:Id",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -103,14 +91,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails4642555058466482",
         "InputFieldName": "Account:Name",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -125,14 +110,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails47716091911991887",
         "InputFieldName": "Account:Phone",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -147,14 +129,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails7021839317095568",
         "InputFieldName": "Account:BillingPostalCode",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -169,14 +148,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails5978098292527021",
         "InputFieldName": "Account:PrimaryContactId__r.Name",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -191,14 +167,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetailsCustom5927",
         "InputFieldName": "PriContact:Name",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -213,14 +186,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails1635989751360063",
         "InputFieldName": "Account:Website",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -235,14 +205,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails2852218376588589",
         "InputFieldName": "Contact:Email",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -257,14 +224,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails3601327232714744",
         "InputFieldName": "Contact:FirstName",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -279,14 +243,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails16943517863906088",
         "InputFieldName": "Contact:Id",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -301,14 +262,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails6699973946900115",
         "InputFieldName": "Contact:LastName",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -323,14 +281,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails9303836345135776",
         "InputFieldName": "Contact:Phone",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",
@@ -345,14 +300,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountContactDetails0885411669229974",
         "InputFieldName": "Contact:Title",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountContactDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountContactDetails",

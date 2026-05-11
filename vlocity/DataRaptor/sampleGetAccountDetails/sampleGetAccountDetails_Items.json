@@ -1,6 +1,5 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "FilterDataType": "ID",
         "FilterGroup": 0,
         "FilterOperator": "=",
@@ -10,10 +9,8 @@
         "InputObjectName": "Account",
         "InputObjectQuerySequence": 1,
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountDetails",
@@ -28,15 +25,12 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountDetailsCustom7134",
         "InputFieldName": "Name",
         "InputObjectName": "Account",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountDetails",
@@ -51,15 +45,12 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountDetailsCustom8516",
         "InputFieldName": "Phone",
         "InputObjectName": "Account",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountDetails",
@@ -74,15 +65,12 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountDetailsCustom568",
         "InputFieldName": "Website",
         "InputObjectName": "Account",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountDetails",

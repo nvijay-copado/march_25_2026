@@ -1,6 +1,5 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "AccountId",
@@ -9,10 +8,8 @@
         "InputObjectName": "Account",
         "InputObjectQuerySequence": 1,
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "reusableCompanyMailingAddress",
         "OmniDataTransformationId": {
             "Name": "reusableCompanyMailingAddress",
@@ -27,14 +24,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "reusableCompanyMailingAddressCustom8985",
         "InputFieldName": "Account:ShippingCity",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "reusableCompanyMailingAddress",
         "OmniDataTransformationId": {
             "Name": "reusableCompanyMailingAddress",
@@ -49,14 +43,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "reusableCompanyMailingAddressCustom3801",
         "InputFieldName": "Account:ShippingCountry",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "reusableCompanyMailingAddress",
         "OmniDataTransformationId": {
             "Name": "reusableCompanyMailingAddress",
@@ -71,14 +62,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "reusableCompanyMailingAddressCustom8516",
         "InputFieldName": "Account:ShippingPostalCode",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "reusableCompanyMailingAddress",
         "OmniDataTransformationId": {
             "Name": "reusableCompanyMailingAddress",
@@ -93,14 +81,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "reusableCompanyMailingAddressCustom7898",
         "InputFieldName": "Account:ShippingState",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "reusableCompanyMailingAddress",
         "OmniDataTransformationId": {
             "Name": "reusableCompanyMailingAddress",
@@ -115,14 +100,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "reusableCompanyMailingAddressCustom2513",
         "InputFieldName": "Account:ShippingStreet",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "reusableCompanyMailingAddress",
         "OmniDataTransformationId": {
             "Name": "reusableCompanyMailingAddress",

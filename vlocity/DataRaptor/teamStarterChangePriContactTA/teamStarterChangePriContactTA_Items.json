@@ -1,6 +1,5 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "AccountId",
@@ -9,10 +8,8 @@
         "InputObjectName": "Contact",
         "InputObjectQuerySequence": 1,
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "teamStarterChangePriContactTA",
         "OmniDataTransformationId": {
             "Name": "teamStarterChangePriContactTA",
@@ -27,14 +24,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "teamChangePriContactTACustoma173k00000c9Sx1AAEItem3",
         "InputFieldName": "ChangeContact:Email",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "teamStarterChangePriContactTA",
         "OmniDataTransformationId": {
             "Name": "teamStarterChangePriContactTA",
@@ -49,14 +43,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "teamStarterChangePriContactTACustom9958",
         "InputFieldName": "ChangeContact:FirstName",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "teamStarterChangePriContactTA",
         "OmniDataTransformationId": {
             "Name": "teamStarterChangePriContactTA",
@@ -71,14 +62,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "teamChangePriContactTACustoma173k00000c9Sx1AAEItem4",
         "InputFieldName": "ChangeContact:Id",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "teamStarterChangePriContactTA",
         "OmniDataTransformationId": {
             "Name": "teamStarterChangePriContactTA",
@@ -93,14 +81,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "teamStarterChangePriContactTACustom6844",
         "InputFieldName": "ChangeContact:LastName",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "teamStarterChangePriContactTA",
         "OmniDataTransformationId": {
             "Name": "teamStarterChangePriContactTA",

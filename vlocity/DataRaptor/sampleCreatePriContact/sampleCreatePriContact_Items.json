@@ -1,13 +1,10 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGCreatePriContactCustom753",
         "InputFieldName": "AccountId",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleCreatePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleCreatePriContact",
@@ -22,14 +19,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGCreatePriContactCustom9595",
         "InputFieldName": "CreateEmail",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleCreatePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleCreatePriContact",
@@ -44,14 +38,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGCreatePriContactCustom3055",
         "InputFieldName": "CreateFirstName",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleCreatePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleCreatePriContact",
@@ -66,14 +57,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterOperator": "=",
         "GlobalKey": "TRNGCreatePriContactCustoma173i000000XlYUAA0Item0",
         "IsDisabled": true,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "MigrationValue": "FAKEMAPPING",
         "Name": "sampleCreatePriContact",
         "OmniDataTransformationId": {
@@ -89,14 +77,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGCreatePriContactCustom9488",
         "InputFieldName": "CreateLastName",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleCreatePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleCreatePriContact",
@@ -111,14 +96,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGCreatePriContactCustom3728",
         "InputFieldName": "AccountId",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": true,
         "IsUpsertKey": true,
-        "MayEdit": true,
         "Name": "sampleCreatePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleCreatePriContact",
@@ -133,14 +115,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterOperator": "=",
         "GlobalKey": "TRNGCreatePriContactCustoma173i000000XlYUAA0Item3",
         "IsDisabled": true,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "MigrationValue": "FAKEMAPPING",
         "Name": "sampleCreatePriContact",
         "OmniDataTransformationId": {
@@ -156,16 +135,13 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterOperator": "=",
         "GlobalKey": "TRNGCreatePriContactCustom1969",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
         "LinkedFieldName": "Id",
         "LinkedObjectSequence": 1,
-        "MayEdit": true,
         "MigrationValue": "FAKEMAPPING",
         "Name": "sampleCreatePriContact",
         "OmniDataTransformationId": {

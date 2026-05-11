@@ -1,13 +1,10 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleSaveCaseDetails7431161749827775",
         "InputFieldName": "CaseNumber",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleSaveCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleSaveCaseDetails",
@@ -22,14 +19,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleSaveCaseDetails0579274200694575",
         "InputFieldName": "CaseOpenDate",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleSaveCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleSaveCaseDetails",
@@ -44,14 +38,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleSaveCaseDetails5059536205482431",
         "InputFieldName": "CaseDescription",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleSaveCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleSaveCaseDetails",
@@ -66,14 +57,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleSaveCaseDetails4606393066031289",
         "InputFieldName": "CaseId",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": true,
         "IsUpsertKey": true,
-        "MayEdit": true,
         "Name": "sampleSaveCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleSaveCaseDetails",
@@ -88,14 +76,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterOperator": "=",
         "GlobalKey": "sampleSaveCaseDetails38544129478283673",
         "IsDisabled": true,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "MigrationValue": "FAKEMAPPING",
         "Name": "sampleSaveCaseDetails",
         "OmniDataTransformationId": {
@@ -111,14 +96,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleSaveCaseDetails6959537748629527",
         "InputFieldName": "CaseStatus",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleSaveCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleSaveCaseDetails",
@@ -133,14 +115,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleSaveCaseDetails8582466710593302",
         "InputFieldName": "CaseSubject",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleSaveCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleSaveCaseDetails",

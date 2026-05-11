@@ -1,6 +1,5 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "AccountId",
@@ -9,10 +8,8 @@
         "InputObjectName": "Account",
         "InputObjectQuerySequence": 1,
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountDetailsDRExtract",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountDetailsDRExtract",
@@ -27,14 +24,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountDetailsDRExtract9116710466428641",
         "InputFieldName": "Account:Id",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountDetailsDRExtract",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountDetailsDRExtract",
@@ -49,14 +43,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountDetailsDRExtract13673801718364875",
         "InputFieldName": "Account:Name",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountDetailsDRExtract",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountDetailsDRExtract",
@@ -71,14 +62,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountDetailsDRExtract20281662614294915",
         "InputFieldName": "Account:Phone",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountDetailsDRExtract",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountDetailsDRExtract",
@@ -93,14 +81,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountDetailsDRExtractCustom9942",
         "InputFieldName": "Account:BillingPostalCode",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountDetailsDRExtract",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountDetailsDRExtract",
@@ -115,14 +100,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetAccountDetailsDRExtract8263812975041602",
         "InputFieldName": "Account:Website",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetAccountDetailsDRExtract",
         "OmniDataTransformationId": {
             "Name": "sampleGetAccountDetailsDRExtract",

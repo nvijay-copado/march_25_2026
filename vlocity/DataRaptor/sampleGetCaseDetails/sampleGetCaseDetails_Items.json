@@ -1,6 +1,5 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "FilterDataType": "ID",
         "FilterGroup": 0,
         "FilterOperator": "=",
@@ -10,10 +9,8 @@
         "InputObjectName": "Case",
         "InputObjectQuerySequence": 1,
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetCaseDetails",
@@ -28,15 +25,12 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetCaseDetailsCustom7043",
         "InputFieldName": "CaseNumber",
         "InputObjectName": "Case",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetCaseDetails",
@@ -51,15 +45,12 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetCaseDetailsCustom9572",
         "InputFieldName": "CreatedDate",
         "InputObjectName": "Case",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetCaseDetails",
@@ -74,15 +65,12 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetCaseDetailsCustom5353",
         "InputFieldName": "Status",
         "InputObjectName": "Case",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetCaseDetails",
@@ -97,15 +85,12 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleGetCaseDetailsCustom6663",
         "InputFieldName": "Subject",
         "InputObjectName": "Case",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleGetCaseDetails",
         "OmniDataTransformationId": {
             "Name": "sampleGetCaseDetails",

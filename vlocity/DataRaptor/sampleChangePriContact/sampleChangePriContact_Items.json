@@ -1,13 +1,10 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGChangePriContactCustom2616",
         "InputFieldName": "ChangeContactEmail",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleChangePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleChangePriContact",
@@ -22,14 +19,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleChangePriContactCustom1867",
         "InputFieldName": "ChangeContactFirstName",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleChangePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleChangePriContact",
@@ -44,14 +38,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGChangePriContactCustom6427",
         "InputFieldName": "ChangeContactId",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": true,
         "IsUpsertKey": true,
-        "MayEdit": true,
         "Name": "sampleChangePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleChangePriContact",
@@ -66,14 +57,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterOperator": "=",
         "GlobalKey": "TRNGChangePriContactCustom2787",
         "IsDisabled": true,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "MigrationValue": "FAKEMAPPING",
         "Name": "sampleChangePriContact",
         "OmniDataTransformationId": {
@@ -89,14 +77,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleChangePriContactCustom2929",
         "InputFieldName": "ChangeContactLastName",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleChangePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleChangePriContact",
@@ -111,14 +96,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGChangePriContactCustom3244",
         "InputFieldName": "AccountId",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": true,
         "IsUpsertKey": true,
-        "MayEdit": true,
         "Name": "sampleChangePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleChangePriContact",
@@ -133,14 +115,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterOperator": "=",
         "GlobalKey": "TRNGChangePriContactCustom3318",
         "IsDisabled": true,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "MigrationValue": "FAKEMAPPING",
         "Name": "sampleChangePriContact",
         "OmniDataTransformationId": {
@@ -156,14 +135,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "TRNGChangePriContactCustom9041",
         "InputFieldName": "ChangeContactId",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleChangePriContact",
         "OmniDataTransformationId": {
             "Name": "sampleChangePriContact",

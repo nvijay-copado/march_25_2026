@@ -1,13 +1,10 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "sampleSaveAccountDetailsCustom5232",
         "InputFieldName": "AccountPostalCode",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleSaveAccountDetails",
         "OmniDataTransformationId": {
             "Name": "sampleSaveAccountDetails",
@@ -22,14 +19,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "SAMPLESaveAccountDetailsCustoma173i000000ZZtFAAWItem1",
         "InputFieldName": "AccountId",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": true,
         "IsUpsertKey": true,
-        "MayEdit": true,
         "Name": "sampleSaveAccountDetails",
         "OmniDataTransformationId": {
             "Name": "sampleSaveAccountDetails",
@@ -44,14 +38,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "FilterOperator": "=",
         "GlobalKey": "SAMPLESaveAccountDetailsCustoma173i000000ZZtFAAWItem0",
         "IsDisabled": true,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "MigrationValue": "FAKEMAPPING",
         "Name": "sampleSaveAccountDetails",
         "OmniDataTransformationId": {
@@ -67,14 +58,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "SAMPLESaveAccountDetailsCustoma173i000000ZZtFAAWItem2",
         "InputFieldName": "AccountPhone",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleSaveAccountDetails",
         "OmniDataTransformationId": {
             "Name": "sampleSaveAccountDetails",
@@ -89,14 +77,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "SAMPLESaveAccountDetailsCustoma173i000000ZZtFAAWItem3",
         "InputFieldName": "AccountWebsite",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "sampleSaveAccountDetails",
         "OmniDataTransformationId": {
             "Name": "sampleSaveAccountDetails",

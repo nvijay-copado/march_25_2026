@@ -1,13 +1,10 @@
 [
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "teamStarterXformWeather26327012072986666",
         "InputFieldName": "Current:city_name",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "teamStarterXformWeather",
         "OmniDataTransformationId": {
             "Name": "teamStarterXformWeather",
@@ -22,14 +19,11 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "CurrencyIsoCode": "USD",
         "GlobalKey": "teamStarterXformWeather2507863475071286",
         "InputFieldName": "Current:weather:description",
         "IsDisabled": false,
-        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
-        "MayEdit": true,
         "Name": "teamStarterXformWeather",
         "OmniDataTransformationId": {
             "Name": "teamStarterXformWeather",
