@@ -72,7 +72,6 @@ $RECYCLE.BIN/
 **/permissionsets/*__*.*
 # additional metadata types
 **/flowDefinitions/**
-**/staticresources/**
 **/documents/**
 #**/installedPackages/**
 #**/dashboards/**
