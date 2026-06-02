@@ -1,6 +1,9 @@
 {
+    "CurrencyIsoCode": "USD",
     "IsActive": true,
+    "IsLocked": false,
     "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
     "Name": "DataRaptorExtractAction1",
     "OmniProcessId": {
         "Name": "DR trst",
