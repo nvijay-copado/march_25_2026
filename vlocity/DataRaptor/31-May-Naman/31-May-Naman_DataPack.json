@@ -1,6 +1,6 @@
 {
     "BatchSize": "",
-    "Description": "SubhaTestDescription",
+    "Description": "{!Environment.SubhaTestDescription}",
     "ExpectedInputJson": "",
     "ExpectedInputOtherData": "",
     "ExpectedInputXml": "",
