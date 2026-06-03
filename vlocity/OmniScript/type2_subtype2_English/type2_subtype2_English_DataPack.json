@@ -1,13 +1,16 @@
 {
+    "CurrencyIsoCode": "USD",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegProcdSignatureAvl": false,
     "IsIntegrationProcedure": false,
+    "IsLocked": false,
     "IsManagedUsingStdDesigner": false,
     "IsMetadataCacheDisabled": false,
     "IsOmniScriptEmbeddable": false,
     "IsTestProcedure": false,
     "IsWebCompEnabled": true,
     "Language": "English",
+    "MayEdit": true,
     "Name": "DR trst",
     "OmniProcessElement": [
         "type2_subtype2_English_Element_Step1.json",
@@ -17,6 +20,7 @@
     "PropertySetConfig": "type2_subtype2_English_PropertySetConfig.json",
     "SubType": "subtype2",
     "Type": "type2",
+    "UniqueName": "type2_subtype2_English_7",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/type2/subtype2/English"
