@@ -1,5 +1,6 @@
 [
     {
+        "CurrencyIsoCode": "USD",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "1",
@@ -8,8 +9,10 @@
         "InputObjectName": "Account",
         "InputObjectQuerySequence": 1,
         "IsDisabled": false,
+        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
+        "MayEdit": true,
         "Name": "TestNaman1",
         "OmniDataTransformationId": {
             "Name": "TestNaman1",
@@ -24,12 +27,15 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
+        "CurrencyIsoCode": "USD",
         "FormulaExpression": "NamanEnv112333333",
         "FormulaSequence": 1,
         "GlobalKey": "TestNaman1Custom8113",
         "IsDisabled": false,
+        "IsLocked": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
+        "MayEdit": true,
         "Name": "TestNaman1",
         "OmniDataTransformationId": {
             "Name": "TestNaman1",
