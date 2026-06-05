@@ -1,9 +1,6 @@
 {
-    "CurrencyIsoCode": "USD",
     "IsActive": true,
-    "IsLocked": false,
     "IsOmniScriptEmbeddable": false,
-    "MayEdit": true,
     "Name": "Step1",
     "OmniProcessId": {
         "Name": "SubhaTestRollBackScript",
