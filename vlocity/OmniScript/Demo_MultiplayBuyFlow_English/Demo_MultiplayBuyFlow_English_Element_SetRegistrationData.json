@@ -1,0 +1,57 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetRegistrationData",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "CredentialsBlock",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/CredentialsBlock",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "CredentialsBlock",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 4,
+        "elementValueMap": {
+            "RegistrationFirstName": "Justin",
+            "RegistrationLastName": "Morris",
+            "RegistrationMobile": "9142329901",
+            "RegistrationPassword": "%DemoConfig:Password%",
+            "RegistrationPasswordConfirmation": "%DemoConfig:Password%",
+            "RegistrationPhone": "2136210002",
+            "RegistrationUsername": "=CONCATENATE('demo-', MOMENT(NOW()).format('X'), '@demo1234.org')"
+        },
+        "label": "* Required Field",
+        "lwcComponentOverride": "demo_setvalue_link",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/SetRegistrationData"
+}

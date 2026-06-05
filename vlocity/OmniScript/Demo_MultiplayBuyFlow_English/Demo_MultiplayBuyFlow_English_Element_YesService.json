@@ -1,0 +1,57 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "This block displays upon a successful serviceability check.",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "YesService",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Serviceability",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/Serviceability",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Serviceability",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "collapse": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "hide": false,
+        "label": "",
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": ">",
+                        "data": "0",
+                        "field": "ServiceabilityResult"
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/YesService"
+}

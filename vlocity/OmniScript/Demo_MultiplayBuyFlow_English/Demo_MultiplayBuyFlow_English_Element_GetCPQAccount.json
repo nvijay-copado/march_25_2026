@@ -1,0 +1,78 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "If we are using the CPQv2 APIs, orders will be created under a temporary account until user registration has completed.",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "GetCPQAccount",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "bundle": "DemoGetAccountByNumber",
+        "businessCategory": "",
+        "businessEvent": "",
+        "controlWidth": 12,
+        "dataRaptor Input Parameters": [
+            {
+                "element": "CPQTempAccountNumber",
+                "inputParam": "AccountNumber"
+            }
+        ],
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "ignoreCache": true,
+        "inProgressMessage": "In Progress",
+        "label": "Get Temporary CPQ Account",
+        "message": {
+        },
+        "postMessage": "Done",
+        "pubsub": false,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteTimeout": 30000,
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "dc",
+                        "field": "DemoConfig:CpqApi"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "Type": "DataRaptor Extract Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/GetCPQAccount"
+}

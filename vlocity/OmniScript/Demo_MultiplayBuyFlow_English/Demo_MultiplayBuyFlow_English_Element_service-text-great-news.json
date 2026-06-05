@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "service-text-great-news",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "YesService",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/YesService",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "YesService",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock4",
+        "sanitize": false,
+        "show": null,
+        "text": "<h2>Great News!</h2>\n<p>We have speeds up to <strong>%ServiceabilityResultText%</strong> at your location.</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/service-text-great-news"
+}

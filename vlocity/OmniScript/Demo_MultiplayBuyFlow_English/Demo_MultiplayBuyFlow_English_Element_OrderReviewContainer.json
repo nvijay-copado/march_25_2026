@@ -1,0 +1,45 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "OrderReviewContainer",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "OrderReview",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/OrderReview",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "OrderReview",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "collapse": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "hide": false,
+        "label": "",
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "show": null
+    },
+    "Type": "Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/OrderReviewContainer"
+}

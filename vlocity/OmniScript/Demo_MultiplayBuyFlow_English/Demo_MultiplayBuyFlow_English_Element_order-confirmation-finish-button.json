@@ -1,0 +1,61 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "Navigates to the Community Self-Install page (user will be prompted to login).",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "order-confirmation-finish-button",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "order-confirmation-action-buttons",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/order-confirmation-action-buttons",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "order-confirmation-action-buttons",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "businessCategory": "",
+        "businessEvent": "",
+        "controlWidth": 2,
+        "iconName": "",
+        "iconPosition": "left",
+        "iconVariant": "",
+        "label": "Finish",
+        "loginAction": "login",
+        "message": {
+        },
+        "objectAction": "home",
+        "pubsub": false,
+        "recordAction": "view",
+        "replace": true,
+        "show": null,
+        "ssm": false,
+        "targetFilter": "Recent",
+        "targetId": "%ContextId%",
+        "targetLWCLayout": "lightning",
+        "targetName": "Self_Install__c",
+        "targetType": "Community Named Page",
+        "targetUrl": "%CommunityBaseURL%",
+        "validationRequired": "Submit",
+        "variant": "brand",
+        "wpm": false
+    },
+    "Type": "Navigate Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/order-confirmation-finish-button"
+}

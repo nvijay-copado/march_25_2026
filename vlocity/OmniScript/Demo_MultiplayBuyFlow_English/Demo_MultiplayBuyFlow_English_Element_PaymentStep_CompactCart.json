@@ -1,0 +1,66 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PaymentStep_CompactCart",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "PaymentStep_ShoppingCart",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/PaymentStep_ShoppingCart",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "PaymentStep_ShoppingCart",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "cart",
+                "source": "%cart%"
+            },
+            {
+                "name": "title",
+                "source": "Cart"
+            },
+            {
+                "name": "hide-actions",
+                "source": "true"
+            }
+        ],
+        "hide": false,
+        "label": "Shopping Cart",
+        "lwcName": "demo_cpq_compact_cart",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": ">",
+                        "data": "0",
+                        "field": "cart:totalSize"
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/PaymentStep_CompactCart"
+}

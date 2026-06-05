@@ -1,0 +1,87 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SelectedPlans",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "recommendedPlanContainer",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/recommendedPlanContainer",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "recommendedPlanContainer",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "catalog",
+                "source": "%catalog%"
+            },
+            {
+                "name": "filter",
+                "source": "%InternetFilter%"
+            },
+            {
+                "name": "select-mode",
+                "source": "api"
+            },
+            {
+                "name": "sort-by",
+                "source": "ATTR:B2C-ATTR-INET-DOWNLOAD-SPEED"
+            },
+            {
+                "name": "recommend",
+                "source": "FLD:ProductCode.includes(\"B2C-INET-OFR-02-PREM\")"
+            },
+            {
+                "name": "add-button-label",
+                "source": "Add to Cart"
+            },
+            {
+                "name": "auto-advance",
+                "source": "true"
+            },
+            {
+                "name": "cart-id-node",
+                "source": "cartId"
+            },
+            {
+                "name": "cart-node",
+                "source": "cart"
+            },
+            {
+                "name": "context-key",
+                "source": "%contextKey%"
+            },
+            {
+                "name": "debug",
+                "source": "%DemoConfig:Debug%"
+            }
+        ],
+        "hide": false,
+        "label": "",
+        "lwcName": "demo_cpq_offer_tiles",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/SelectedPlans"
+}

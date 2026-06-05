@@ -1,0 +1,58 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "UsernameWarning",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "username-response",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/username-response",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "username-response",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": null,
+        "dataJSON": false,
+        "label": "TextBlock14",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "UsernameAvailable"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "RegistrationUsername"
+                    }
+                ]
+            }
+        },
+        "text": "<p><span style=\"color: #c23934; font-size: 0.75rem;\">This username is already registered.&nbsp; Please try a different username.</span></p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/UsernameWarning"
+}

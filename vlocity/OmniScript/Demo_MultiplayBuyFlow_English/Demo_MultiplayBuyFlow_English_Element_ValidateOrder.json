@@ -1,0 +1,54 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "Confirms that the Order has been successfully created (or in case of Digital Commerce we have a contexKey)",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ValidateOrder",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementErrorMap": {
+            "ProfileUsage": "We are sorry!  We are still setting up an order, please try again in a few seconds."
+        },
+        "label": "Validate Order",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": null,
+                        "field": "cartId"
+                    },
+                    {
+                        "condition": "=",
+                        "data": null,
+                        "field": "contextKey"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "Type": "Set Errors",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/ValidateOrder"
+}

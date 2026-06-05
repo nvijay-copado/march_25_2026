@@ -1,0 +1,52 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "Sets the Billing Address if a new one was provided in the Payment Step.",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetBillingAddress",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "BillingCity": "=IF(STRING(%BillingAddress-Block:City%) != '[object Object]', %BillingAddress-Block:City%, %BillingAddress-Block:AdminArea3%)",
+            "BillingCountry": "=%BillingAddress-Block:Country%",
+            "BillingPostalCode": "=%BillingAddress-Block:PostalCode%",
+            "BillingState": "=%BillingAddress-Block:State%",
+            "BillingStreetAddress": "=CONCATENATE(%BillingAddress-Block:StreetNumber%, ' ', %BillingAddress-Block:Street%)"
+        },
+        "label": "Set Billing Address",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "new",
+                        "field": "BillingAddressType"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/SetBillingAddress"
+}

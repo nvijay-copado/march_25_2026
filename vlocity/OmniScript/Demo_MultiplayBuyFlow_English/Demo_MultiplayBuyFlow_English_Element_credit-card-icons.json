@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "credit-card-icons",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Block3",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/Block3",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Block3",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock15",
+        "sanitize": false,
+        "show": null,
+        "text": "<p><img src=\"https://vlocitydemodx-cdn.herokuapp.com/content/global/payment-icon-set/icons/visa-curved-32px.png\" alt=\"\" width=\"51\" height=\"32\" /> &nbsp;<img src=\"https://vlocitydemodx-cdn.herokuapp.com/content/global/payment-icon-set/icons/mastercard-curved-32px.png\" alt=\"\" width=\"51\" height=\"32\" /> &nbsp;<img src=\"https://vlocitydemodx-cdn.herokuapp.com/content/global/payment-icon-set/icons/discover-curved-32px.png\" alt=\"\" width=\"51\" height=\"32\" /> &nbsp;<img src=\"https://vlocitydemodx-cdn.herokuapp.com/content/global/payment-icon-set/icons/american-express-curved-32px.png\" alt=\"\" width=\"51\" height=\"32\" /></p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/credit-card-icons"
+}

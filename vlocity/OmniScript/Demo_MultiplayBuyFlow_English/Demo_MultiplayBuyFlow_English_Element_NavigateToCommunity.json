@@ -1,0 +1,60 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "Navigates the user back to the Community Page.",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "NavigateToCommunity",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "emailConfirmationBlock",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/emailConfirmationBlock",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "emailConfirmationBlock",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "businessCategory": "",
+        "businessEvent": "",
+        "controlWidth": 2,
+        "iconName": "",
+        "iconPosition": "left",
+        "iconVariant": "",
+        "label": "Finish",
+        "loginAction": "login",
+        "message": {
+        },
+        "objectAction": "home",
+        "pubsub": false,
+        "recordAction": "view",
+        "replace": true,
+        "show": null,
+        "ssm": false,
+        "targetFilter": "Recent",
+        "targetId": "%ContextId%",
+        "targetLWCLayout": "lightning",
+        "targetType": "Web Page",
+        "targetUrl": "%CommunityBaseURL%",
+        "validationRequired": "Submit",
+        "variant": "brand",
+        "wpm": false
+    },
+    "Type": "Navigate Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/NavigateToCommunity"
+}

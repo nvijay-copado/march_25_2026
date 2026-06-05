@@ -1,0 +1,49 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "Initializes necessary CPQv2 variables if we are using this API (see Init:CpqApi)",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "InitCPQ",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "CPQTempAccountNumber": "CPQTemp",
+            "InternetProductSpec": "Internet PS_Professional Installation PS_Video Streaming Service PS_Audio Streaming Service PS_Software Add On PS"
+        },
+        "label": "Initialize CPQv2 Configuration",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "dc",
+                        "field": "DemoConfig:CpqApi"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/InitCPQ"
+}

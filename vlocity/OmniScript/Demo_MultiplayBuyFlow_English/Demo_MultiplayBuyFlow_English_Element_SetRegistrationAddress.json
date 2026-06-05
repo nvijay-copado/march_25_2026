@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "Copies the serviceability address to the registration step.",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetRegistrationAddress",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "RegistrationCity": "=IF(STRING(%Serviceability:Address-Block:City%) != '[object Object]', %Serviceability:Address-Block:City%, %Serviceability:Address-Block:AdminArea3%)",
+            "RegistrationCountry": "=%Serviceability:Address-Block:Country%",
+            "RegistrationPostalCode": "=%Serviceability:Address-Block:PostalCode%",
+            "RegistrationState": "=%Serviceability:Address-Block:State%",
+            "RegistrationStreetAddress": "=CONCATENATE(%Serviceability:Address-Block:StreetNumber%, ' ', %Serviceability:Address-Block:Street%)"
+        },
+        "label": "Set Registration Address",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/SetRegistrationAddress"
+}

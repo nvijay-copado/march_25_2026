@@ -1,0 +1,59 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "RegistrationPostalCode",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "CredentialsBlock",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/CredentialsBlock",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "CredentialsBlock",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "debounceValue": 0,
+        "defaultValue": "%Serviceability:Address-Block:PostalCode%",
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Zip / Postal Code",
+        "mask": "",
+        "maxLength": 255,
+        "minLength": 0,
+        "pattern": "",
+        "placeholder": "",
+        "ptrnErrText": "",
+        "readOnly": true,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Text",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/RegistrationPostalCode"
+}

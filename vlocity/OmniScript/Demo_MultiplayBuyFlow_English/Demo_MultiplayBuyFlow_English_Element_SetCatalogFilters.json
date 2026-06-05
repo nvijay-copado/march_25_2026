@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "We have a single catalog structure with all products, so these filters used to only show specific sets of offers on each step.",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetCatalogFilters",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "AddOnFilter": "FLD:ProductCode == \"B2C-SFTWR-OFR-MS-OFFICE365\" || FLD:ProductCode == \"B2C-SFTWR-OFR-NORDVPN\"",
+            "EntertainmentFilter": "FLD:ProductCode == \"B2C-OTT-OFR-03-HULU\" || FLD:ProductCode == \"B2C-OTT-OFR-09-YOUTUBETV\"",
+            "InstallFilter": "FLD:ProductCode == \"B2C-INET-OFR-PROFINST\"",
+            "InternetFilter": "ATTR:B2C-ATTR-INET-DOWNLOAD-SPEED <= %ServiceabilityResult%",
+            "PremiumEntertainmentFilter": "FLD:ProductCode == \"B2C-OTT-OFR-01-DISNEY\" || FLD:ProductCode == \"B2C-OTT-OFR-02-HBOMAX\" || FLD:ProductCode == \"B2C-OTT-OFR-05-NETFLIX\" || FLD:ProductCode == \"B2C-OTT-OFR-07-SPOTIFY\""
+        },
+        "label": "Set Catalog Filters",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/SetCatalogFilters"
+}

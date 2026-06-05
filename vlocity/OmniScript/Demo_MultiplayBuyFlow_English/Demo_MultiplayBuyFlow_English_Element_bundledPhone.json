@@ -1,0 +1,71 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "bundledPhone",
+    "OmniProcessId": {
+        "Name": "Multiplay Buy Flow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "MostImportantContainer",
+        "OmniProcessId": {
+            "Name": "Multiplay Buy Flow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/MostImportantContainer",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "MostImportantContainer",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 2,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": "image",
+        "imageCountInRow": 1,
+        "label": "",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": "image"
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "imgId": "/resource/demoBuyFlowImages/demo-bundled-phone.png",
+                "name": "bundledPhone",
+                "value": "Bundled Phone Service"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "Type": "Multi-select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Demo/MultiplayBuyFlow/English/bundledPhone"
+}
