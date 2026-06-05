@@ -18,7 +18,7 @@
     "PropertySetConfig": "Demo_MultiplayBuyFlow_English_PropertySetConfig.json",
     "SubType": "MultiplayBuyFlow",
     "Type": "Demo",
-    "UniqueName": "Demo_MultiplayBuyFlow_English_24",
+    "UniqueName": "Demo_MultiplayBuyFlow_English_26",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/Demo/MultiplayBuyFlow/English"
